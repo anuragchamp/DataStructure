@@ -12,5 +12,6 @@ public class Test01 {
         }
         System.out.println(i);
         test(--i);
+        System.out.println(i);
     }
 }
