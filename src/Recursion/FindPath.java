@@ -3,14 +3,14 @@ package Recursion;
 public class FindPath {
     public static void main(String[] args) {
         int arr[][] = {
-                {0,1,0},
+                {0,0,1},
                 {0,0,0},
-                {0,0,0}
+                {1,0,0}
         };
         int ans[][] = new int[3][3];
       //  boolean visited[][] = new boolean[3][3];
 
-        printAllPath(arr , ans , 0 ,0 , 2 ,2 );
+        printAllPath(arr , ans , 0 ,0 , arr.length - 1 ,arr[0].length - 1 );
         //System.out.println("gg");
     }
 
